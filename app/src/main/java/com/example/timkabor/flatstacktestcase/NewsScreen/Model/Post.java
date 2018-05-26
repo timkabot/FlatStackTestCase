@@ -5,7 +5,8 @@ public class Post {
     private String avatar;
     private int owner_id;
     private String group_name;
-    int date;
+    private int post_id;
+    private int date;
     public String getText() {
         return text;
     }
@@ -44,5 +45,13 @@ public class Post {
 
     public void setGroup_name(String group_name) {
         this.group_name = group_name;
+    }
+
+    public int getPost_id() {
+        return post_id;
+    }
+
+    public void setPost_id(int post_id) {
+        this.post_id = post_id;
     }
 }

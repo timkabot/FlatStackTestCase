@@ -3,6 +3,7 @@ package com.example.timkabor.flatstacktestcase.NewsScreen.View;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
+import android.widget.ImageButton;
 
 import com.example.timkabor.flatstacktestcase.NewsScreen.Presenter.NewsActivityPresenter;
 import com.example.timkabor.flatstacktestcase.R;
@@ -26,4 +27,6 @@ public class NewsActivity extends Activity {
     public RecyclerView getNewsRecyclerView() {
         return newsRecyclerView;
     }
+
+
 }
