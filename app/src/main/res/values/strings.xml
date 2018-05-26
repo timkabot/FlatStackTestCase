@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FlatStackTestCase</string>
+    <integer name="com_vk_sdk_AppId">6489647</integer>
+
+</resources>
